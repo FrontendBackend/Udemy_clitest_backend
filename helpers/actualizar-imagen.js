@@ -1,8 +1,8 @@
 
 
-const Medico = require('./../models/medico');
-const Hospital = require('./../models/hospital');
-const Usuario = require('./../models/usuario');
+const Medico = require('../models/medico');
+const Hospital = require('../models/hospital');
+const Usuario = require('../models/usuario');
 const fs = require('fs');
 
 const eliminarImagen = (path) => {
